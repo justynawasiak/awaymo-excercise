@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.mark.usefixtures("get_driver")
 @pytest.mark.P4
 @pytest.mark.manual
